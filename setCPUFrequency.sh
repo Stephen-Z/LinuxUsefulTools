@@ -21,7 +21,7 @@ echo
 #echo $minFrequency > /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq
 #echo $minFrequency > /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq
 echo
-echo "setting max frequency..."
+echo "setting max frequency...to $maxFrequency"
 echo $maxFrequency > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
 echo $maxFrequency > /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq
 echo $maxFrequency > /sys/devices/system/cpu/cpu2/cpufreq/scaling_max_freq
